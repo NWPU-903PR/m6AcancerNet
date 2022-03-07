@@ -63,3 +63,8 @@ site_matrix <- site_matrix[-match(del,rownames(site_matrix)),-match(del,rownames
 
 #delete genes in pcc
 pcc <- pcc[-match(del_gene$name,rownames(pcc)),-match(del_gene$name,colnames(pcc))]
+
+#save
+saveRDS(pcc,'pcc_genemania.rds')
+saveRDS(site_matrix,'site_genemania.rds')
+saveRDS(gene_site,'gene_site_genemania.rds')

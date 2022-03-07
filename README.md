@@ -9,5 +9,5 @@ All the code are based on R language, and R version ≥ 3.6.3  is suggested.
 * The reference gene functional network data are gained from **GeneMANIA**.
 ## Usage Example
 ### Take AML dataset as an example
-* Use <td bgcolor=red>makeGeneCoexpressionNet.R</td> to generate the gene co-expression network;
+* Use <tr><td bgcolor=red>makeGeneCoexpressionNet.R</td></tr> to generate the gene co-expression network;
 * Use **

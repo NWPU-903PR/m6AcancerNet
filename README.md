@@ -12,6 +12,7 @@ All the code are based on R language, and R version ≥ 3.6.3  is suggested.
 1. **Gene co-expression network.** Use *GeneCoexpressionNet.R* to generate the gene co-expression network;
 2. **Gene functional interaction network.** Use *CorrectNet.R* to generate the gene functional interaction network;
 3. **Gene-site heterogeneous network.** Use *GeneSiteNet.R* to obtain the gene-site heterogeneous network;
-4. **Functional m6A-mediated genes.** Use *m6ARWRH.R* to perform RWRH for each of the m6A regulator and finally gain potential functional m6A-mediated gene.
+4. **Transition matrix of the gene-site heterogeneous network.** Use *Normalization.R* to generate the transition matrix of the gene-site heterogeneous network;
+5. **Functional m6A-mediated genes.** Use *m6ARWRH.R* to perform RWRH for each of the m6A regulator and finally gain potential functional m6A-mediated gene.
 
 Then, the mutation frequency of these functional m6A-mediated genes are input as heat vector to perform HotNet2 in three PPI networks. The code and network data used by HotNet2 can be downloaded from https://github.com/raphael-group/hotnet2.
